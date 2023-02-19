@@ -128,7 +128,7 @@ const runApp = async () => {
   try {
     await sequelize.authenticate();
     console.log("Connection has been established successfully.");
-    app.listen(3005); // run app with this given port
+    app.listen("https://good-erin-pike-suit.cyclic.app"); // run app with this given port
   } catch (error) {
     console.error("Unable to connect to the database:", error);
   }
